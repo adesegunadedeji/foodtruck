@@ -56,7 +56,6 @@ const getData = async(url)=> {
             const dayOrder = parseInt(index.dayorder);
             const start24 = parseInt(index.start24);
             const end24 = parseInt(index.end24);
-    
 
             //conditional check to know THE food stucks are open at the current date and time: 
             if(currentDay === dayOrder && currentHour >= start24 && currentHour < end24){
@@ -79,12 +78,12 @@ const printResult = (arr, defaultVal = 10)=> {
 
     let count; 
     let resultCount = arr.length; // Original Length of Results arr Based on the stores open at the current time and date: 
-    console.log(resultCount, " BEFORE");
+    //console.log(resultCount, " BEFORE");
+   
     for(count = 0; count <(resultCount >= defaultVal ? defaultVal: resultCount) ; count++){
         table.push(arr[count]);
     }
     console.log(table.toString());
-    console.log(resultCount, "default Value", defaultVal);
     if(resultCount > defaultVal){
         //Request Users Input if they want to see more of the dataSet or not
         process.stdout.write("Do you want to see more Results [Y/N] ? : ");

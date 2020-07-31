@@ -4,7 +4,8 @@
   "description": "CLI application to print out list of food trucks from the San Francisco govt API. at the requested Time. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foodtruck": " node index.js"
   },
   "keywords": [
     "foodtruck",
@@ -13,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "fetchfood": "index.js"
+    "foodtruck": "index.js"
   },
   "dependencies": {
     "cli-table3": "^0.6.0",
