@@ -9,7 +9,7 @@ Build  Simple CLI Program that will print out a list of food tucks, given a sour
 2. Cli-Table3
 
 ## Installation Instuctions:
-1. Download/Unzip the Folder.
+1. Download/Unzip the Folder. || git clone https://github.com/adesegunadedeji/foodtruck.git
 2. Browse to the folder 
 3. Install dependencies npm node-fetch & npm cli-table3.
 4. To run Program: use command npm run foodtruck or node index.js
